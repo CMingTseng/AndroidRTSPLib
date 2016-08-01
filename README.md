@@ -44,24 +44,42 @@ Need Android 6.0 and above.
 2. Function
 
     1) transform the android screen frame to streaming media.
+    
     2) transform the android camera frame to streaming media.
+    
     3) transform the mp4,3gp and avi movie to streaming media.
 
+
 3. Usage:
+
     1) the AndroidRTSPLib is a rtsp server. Some media player supporting rtsp can be used as client, for example VLC player.
+    
     2) the client player need to input URL with the following form
+    
          rtsp://ip:port/option
+         
     3) ip: the ip address of server(AndroidRTSPLib)
+    
        port: the port of server(AndroidRTSPLib)
+       
        option: inclued  screen, camera and movie
+       
     4) port:   the default port is 1234, you can change it int source code,
+    
                in file "MainActivity.java"
+               
                   "private int mOriginPort = 1234;" to whatever you want.
+                  
        screen: the client(media player) can display server's screen image live.
+       
        camera: the client(media player) can display server's camera image live.
+       
        movie:  the client(media player) can display movie on server's SD card.
+       
                but first, you need rename your movie as "movie.mp4" and put the movie int the your SD card path with
+               
                   "(SDcard root path)/AndroidRTSPLib/movie.mp4"
+                  
                if you want to play a 3gp or avi movie, you need to change the source code like:
                
                    int the file “MainActivity.java”:
@@ -71,12 +89,16 @@ Need Android 6.0 and above.
                    “VIDEO_PATH = SDCARD_PATH+"/AndroidRTSPLib/movie.3gp";” 
                    or 
                    “VIDEO_PATH = SDCARD_PATH+"/AndroidRTSPLib/movie.avi";”
+                   
     5) you can put the URL int your media player, remember to change ip and port.
+    
               rtsp://192.168.1.20:1234/screen   
               rtsp://192.168.1.20:1234/camera   
               rtsp://192.168.1.20:1234/movie    
               rtsp://192.168.1.20:1234          
+              
 4. Reference：
+
    The lib is based on Mr fyhertz's libstreaming
    
               https://github.com/fyhertz/libstreaming    
