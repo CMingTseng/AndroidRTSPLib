@@ -36,10 +36,9 @@
 
 1. Introduction
 
-AndroidRTSPLib is an API that allows you, with only a few lines of code, 
-to stream the screen frame, camera frame and movie with RTSP stream.
-
-Need Android 6.0 and above.
+    AndroidRTSPLib is an API that allows you, with only a few lines of code, 
+    to stream the screen frame, camera frame and movie with RTSP stream.
+    Need Android 6.0 and above.
 
 2. Function
 
