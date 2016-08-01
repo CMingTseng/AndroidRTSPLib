@@ -37,7 +37,7 @@
 1. Introduction
 
 AndroidRTSPLib is an API that allows you, with only a few lines of code, 
-to stream the screen frame, camera frame and movie on local SD card with RTSP stream.
+to stream the screen frame, camera frame and movie with RTSP stream.
 
 Need Android 6.0 and above.
 
@@ -54,11 +54,14 @@ Need Android 6.0 and above.
     3) ip: the ip address of server(AndroidRTSPLib)
        port: the port of server(AndroidRTSPLib)
        option: inclued  screen, camera and movie
-    4) screen: the client(media player) can display server's screen image living.
-       camera: the client(media player) can display server's camera image living.
+    4) port:   the default port is 1234, you can change it int source code,
+               in file "MainActivity.java"
+                  "private int mOriginPort = 1234;" to whatever you want.
+       screen: the client(media player) can display server's screen image live.
+       camera: the client(media player) can display server's camera image live.
        movie:  the client(media player) can display movie on server's SD card.
-               but first, you need rename your movie as "movie.mp4" and put the movie int the following path
-                  "/AndroidRTSPLib/movie.mp4"
+               but first, you need rename your movie as "movie.mp4" and put the movie int the your SD card path with
+                  "(SDcard root path)/AndroidRTSPLib/movie.mp4"
                if you want to play a 3gp or avi movie, you need to change the source code like:
                
                    int the file “MainActivity.java”:
