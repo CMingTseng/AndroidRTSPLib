@@ -28,9 +28,13 @@
 四、程序框图
 
 （1）程序结构图
-![image](https://github.com/lijundacom/AndroidRTSPLib/程序结构图.png)
+
+![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/程序结构图.png)
+
 （2）运行流程图
+
 ![image](https://github.com/lijundacom/AndroidRTSPLib/程序运行图.png)
+
      
 五、参考
 
