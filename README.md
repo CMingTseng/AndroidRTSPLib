@@ -38,8 +38,10 @@
 
 五、程序效果图
 
+(1)屏幕录制效果
 ![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/screen.gif)
 
+(2)电影点播效果
 ![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/movie.gif)
 
 六、参考
