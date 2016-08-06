@@ -35,8 +35,14 @@
 
 ![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/程序运行图.png)
 
-     
-五、参考
+
+五、程序效果图
+
+![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/screen.gif)
+
+![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/movie.gif)
+
+六、参考
 
     1、参考fyhertz的libstreaming制作
     2、libstreaming连接：
