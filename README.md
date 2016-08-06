@@ -24,8 +24,15 @@
               rtsp://192.168.1.20:1234/camera   （实时获取Android手机、平板摄像头图像）
               rtsp://192.168.1.20:1234/movie    （点播Android手机、平板本地视频文件）
               rtsp://192.168.1.20:1234          （默认情况下，实时获取Android手机、平板屏幕图像）
+
+四、程序框图
+
+（1）程序结构图
+![image](https://github.com/lijundacom/AndroidRTSPLib/程序结构图.png)
+（2）运行流程图
+![image](https://github.com/lijundacom/AndroidRTSPLib/程序运行图.png)
      
-四、参考
+五、参考
 
     1、参考fyhertz的libstreaming制作
     2、libstreaming连接：
