@@ -33,7 +33,7 @@
 
 （2）运行流程图
 
-![image](https://github.com/lijundacom/AndroidRTSPLib/程序运行图.png)
+![image](https://github.com/lijundacom/AndroidRTSPLib/blob/master/程序运行图.png)
 
      
 五、参考
