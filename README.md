@@ -1,6 +1,6 @@
 
 一、这是一个基于Android平台的RTSP直播、点播服务器。
-    需要Android版本6.0以上。低于6.0的Android设备不能正常使用。
+    需要Android版本5.0以上。低于5.0的Android设备不能正常使用。
     在 Google Nexus 9 上测试，运行正常。
 
 二、实现三个功能：
