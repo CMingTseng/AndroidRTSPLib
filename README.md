@@ -3,6 +3,7 @@
     需要Android版本5.0以上。低于5.0的Android设备不能正常使用。
     在 Google Nexus 9 上测试，运行正常。
     这个版本功能不完善，功能完善版本请移步AndroidRTSPLib2
+    （https://github.com/lijundacom/AndroidRTSPLib2）
     
 
 二、实现三个功能：
